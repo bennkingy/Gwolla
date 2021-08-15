@@ -1,5 +1,4 @@
-  
-import React from 'react';
+  import React from 'react'
 
 import {
   InfoContainer,
@@ -14,8 +13,8 @@ import {
   BtnWrap,
   ImgWrap,
   Img,
-} from './InfoElements';
-import { Button } from '../ButtonElements';
+} from './InfoElements'
+import { Button } from '../ButtonElements'
 
 const InfoSection = ({
   id,
@@ -73,4 +72,4 @@ const InfoSection = ({
   );
 };
 
-export default InfoSection;
+export default InfoSection
