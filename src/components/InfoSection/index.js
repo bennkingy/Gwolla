@@ -50,9 +50,9 @@ const InfoSection = ({
                     dark2={dark2 ? 1 : 0}
                     spy={true}
                     exact="true"
-                    offset='-80px'
                     smooth={true}
                     duration={500}
+                    offset={-80}
                   >
                     {buttonLabel}
                   </Button>
