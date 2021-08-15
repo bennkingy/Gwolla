@@ -13,18 +13,18 @@ const Navbar = ({ toggle }) => {
     } else {
       setScrollNav(false);
     }
-  };
+  }
 
   const toggleHome = () => {
     scroll.scrollToTop();
-  };
+  }
 
   useEffect(() => {
     window.addEventListener('scroll', changeNav);
     return () => {
       window.removeEventListener('scroll', changeNav);
-    };
-  }, []);
+    }
+  }, [])
 
   return (
     <Nav scrollNav={scrollNav}>

@@ -1,5 +1,5 @@
-import { Link } from 'react-scroll';
-import styled from 'styled-components';
+import { Link } from 'react-scroll'
+import styled from 'styled-components'
 
 export const Button = styled(Link)`
   border-radius: 50px;
@@ -18,4 +18,4 @@ export const Button = styled(Link)`
   &:hover {
     background: ${({ primary }) => (primary ? '#fff' : '#01bf71')};
   }
-`;
+`
